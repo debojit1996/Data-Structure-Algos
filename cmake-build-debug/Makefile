@@ -148,6 +148,19 @@ MooreVoting/fast:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/build
 .PHONY : MooreVoting/fast
 
+#=============================================================================
+# Target rules for targets named Leader-Problem
+
+# Build rule for target.
+Leader-Problem: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Leader-Problem
+.PHONY : Leader-Problem
+
+# fast build rule for target.
+Leader-Problem/fast:
+	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/build
+.PHONY : Leader-Problem/fast
+
 Kadanes.obj: Kadanes.cpp.obj
 
 .PHONY : Kadanes.obj
@@ -174,6 +187,33 @@ Kadanes.s: Kadanes.cpp.s
 Kadanes.cpp.s:
 	$(MAKE) -f CMakeFiles\Data_Structure_Algos.dir\build.make CMakeFiles/Data_Structure_Algos.dir/Kadanes.cpp.s
 .PHONY : Kadanes.cpp.s
+
+Leader-Problem.obj: Leader-Problem.cpp.obj
+
+.PHONY : Leader-Problem.obj
+
+# target to build an object file
+Leader-Problem.cpp.obj:
+	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/Leader-Problem.cpp.obj
+.PHONY : Leader-Problem.cpp.obj
+
+Leader-Problem.i: Leader-Problem.cpp.i
+
+.PHONY : Leader-Problem.i
+
+# target to preprocess a source file
+Leader-Problem.cpp.i:
+	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/Leader-Problem.cpp.i
+.PHONY : Leader-Problem.cpp.i
+
+Leader-Problem.s: Leader-Problem.cpp.s
+
+.PHONY : Leader-Problem.s
+
+# target to generate assembly for a file
+Leader-Problem.cpp.s:
+	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/Leader-Problem.cpp.s
+.PHONY : Leader-Problem.cpp.s
 
 Maximum-Consecutive-Ones.obj: Maximum-Consecutive-Ones.cpp.obj
 
@@ -239,10 +279,14 @@ help:
 	@echo ... Data_Structure_Algos
 	@echo ... Maximum-Consecutive-Ones
 	@echo ... MooreVoting
+	@echo ... Leader-Problem
 	@echo ... rebuild_cache
 	@echo ... Kadanes.obj
 	@echo ... Kadanes.i
 	@echo ... Kadanes.s
+	@echo ... Leader-Problem.obj
+	@echo ... Leader-Problem.i
+	@echo ... Leader-Problem.s
 	@echo ... Maximum-Consecutive-Ones.obj
 	@echo ... Maximum-Consecutive-Ones.i
 	@echo ... Maximum-Consecutive-Ones.s

@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-b
 all: CMakeFiles/Data_Structure_Algos.dir/all
 all: CMakeFiles/Maximum-Consecutive-Ones.dir/all
 all: CMakeFiles/MooreVoting.dir/all
+all: CMakeFiles/Leader-Problem.dir/all
 
 .PHONY : all
 
@@ -62,6 +63,7 @@ all: CMakeFiles/MooreVoting.dir/all
 clean: CMakeFiles/Data_Structure_Algos.dir/clean
 clean: CMakeFiles/Maximum-Consecutive-Ones.dir/clean
 clean: CMakeFiles/MooreVoting.dir/clean
+clean: CMakeFiles/Leader-Problem.dir/clean
 
 .PHONY : clean
 
@@ -104,7 +106,7 @@ CMakeFiles/Data_Structure_Algos.dir/clean:
 CMakeFiles/Maximum-Consecutive-Ones.dir/all:
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/depend
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Maximum-Consecutive-Ones"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Maximum-Consecutive-Ones"
 .PHONY : CMakeFiles/Maximum-Consecutive-Ones.dir/all
 
 # Build rule for subdir invocation for target.
@@ -131,7 +133,7 @@ CMakeFiles/Maximum-Consecutive-Ones.dir/clean:
 CMakeFiles/MooreVoting.dir/all:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/depend
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target MooreVoting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target MooreVoting"
 .PHONY : CMakeFiles/MooreVoting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -150,6 +152,33 @@ MooreVoting: CMakeFiles/MooreVoting.dir/rule
 CMakeFiles/MooreVoting.dir/clean:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/clean
 .PHONY : CMakeFiles/MooreVoting.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Leader-Problem.dir
+
+# All Build rule for target.
+CMakeFiles/Leader-Problem.dir/all:
+	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/depend
+	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Leader-Problem"
+.PHONY : CMakeFiles/Leader-Problem.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Leader-Problem.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Leader-Problem.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Leader-Problem.dir/rule
+
+# Convenience name for target.
+Leader-Problem: CMakeFiles/Leader-Problem.dir/rule
+
+.PHONY : Leader-Problem
+
+# clean rule for target.
+CMakeFiles/Leader-Problem.dir/clean:
+	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/clean
+.PHONY : CMakeFiles/Leader-Problem.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
