@@ -53,12 +53,14 @@ CMAKE_BINARY_DIR = C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-b
 
 # The main recursive "all" target.
 all: CMakeFiles/Data_Structure_Algos.dir/all
+all: CMakeFiles/Maximum-Consecutive-Ones.dir/all
 all: CMakeFiles/MooreVoting.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Data_Structure_Algos.dir/clean
+clean: CMakeFiles/Maximum-Consecutive-Ones.dir/clean
 clean: CMakeFiles/MooreVoting.dir/clean
 
 .PHONY : clean
@@ -96,13 +98,40 @@ CMakeFiles/Data_Structure_Algos.dir/clean:
 .PHONY : CMakeFiles/Data_Structure_Algos.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Maximum-Consecutive-Ones.dir
+
+# All Build rule for target.
+CMakeFiles/Maximum-Consecutive-Ones.dir/all:
+	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/depend
+	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Maximum-Consecutive-Ones"
+.PHONY : CMakeFiles/Maximum-Consecutive-Ones.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Maximum-Consecutive-Ones.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Maximum-Consecutive-Ones.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Maximum-Consecutive-Ones.dir/rule
+
+# Convenience name for target.
+Maximum-Consecutive-Ones: CMakeFiles/Maximum-Consecutive-Ones.dir/rule
+
+.PHONY : Maximum-Consecutive-Ones
+
+# clean rule for target.
+CMakeFiles/Maximum-Consecutive-Ones.dir/clean:
+	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/clean
+.PHONY : CMakeFiles/Maximum-Consecutive-Ones.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/MooreVoting.dir
 
 # All Build rule for target.
 CMakeFiles/MooreVoting.dir/all:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/depend
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target MooreVoting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target MooreVoting"
 .PHONY : CMakeFiles/MooreVoting.dir/all
 
 # Build rule for subdir invocation for target.

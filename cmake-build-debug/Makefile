@@ -123,6 +123,19 @@ Data_Structure_Algos/fast:
 .PHONY : Data_Structure_Algos/fast
 
 #=============================================================================
+# Target rules for targets named Maximum-Consecutive-Ones
+
+# Build rule for target.
+Maximum-Consecutive-Ones: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Maximum-Consecutive-Ones
+.PHONY : Maximum-Consecutive-Ones
+
+# fast build rule for target.
+Maximum-Consecutive-Ones/fast:
+	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/build
+.PHONY : Maximum-Consecutive-Ones/fast
+
+#=============================================================================
 # Target rules for targets named MooreVoting
 
 # Build rule for target.
@@ -162,6 +175,33 @@ Kadanes.cpp.s:
 	$(MAKE) -f CMakeFiles\Data_Structure_Algos.dir\build.make CMakeFiles/Data_Structure_Algos.dir/Kadanes.cpp.s
 .PHONY : Kadanes.cpp.s
 
+Maximum-Consecutive-Ones.obj: Maximum-Consecutive-Ones.cpp.obj
+
+.PHONY : Maximum-Consecutive-Ones.obj
+
+# target to build an object file
+Maximum-Consecutive-Ones.cpp.obj:
+	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/Maximum-Consecutive-Ones.cpp.obj
+.PHONY : Maximum-Consecutive-Ones.cpp.obj
+
+Maximum-Consecutive-Ones.i: Maximum-Consecutive-Ones.cpp.i
+
+.PHONY : Maximum-Consecutive-Ones.i
+
+# target to preprocess a source file
+Maximum-Consecutive-Ones.cpp.i:
+	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/Maximum-Consecutive-Ones.cpp.i
+.PHONY : Maximum-Consecutive-Ones.cpp.i
+
+Maximum-Consecutive-Ones.s: Maximum-Consecutive-Ones.cpp.s
+
+.PHONY : Maximum-Consecutive-Ones.s
+
+# target to generate assembly for a file
+Maximum-Consecutive-Ones.cpp.s:
+	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/Maximum-Consecutive-Ones.cpp.s
+.PHONY : Maximum-Consecutive-Ones.cpp.s
+
 MooreVoting.obj: MooreVoting.cpp.obj
 
 .PHONY : MooreVoting.obj
@@ -197,11 +237,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... Data_Structure_Algos
+	@echo ... Maximum-Consecutive-Ones
 	@echo ... MooreVoting
 	@echo ... rebuild_cache
 	@echo ... Kadanes.obj
 	@echo ... Kadanes.i
 	@echo ... Kadanes.s
+	@echo ... Maximum-Consecutive-Ones.obj
+	@echo ... Maximum-Consecutive-Ones.i
+	@echo ... Maximum-Consecutive-Ones.s
 	@echo ... MooreVoting.obj
 	@echo ... MooreVoting.i
 	@echo ... MooreVoting.s

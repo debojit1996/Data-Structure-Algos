@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Data_Structure_Algos Kadanes.cpp)
 add_executable(MooreVoting MooreVoting.cpp)
+add_executable(Maximum-Consecutive-Ones Maximum-Consecutive-Ones.cpp)

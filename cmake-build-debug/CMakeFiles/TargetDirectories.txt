@@ -1,4 +1,5 @@
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/Data_Structure_Algos.dir
+C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/Maximum-Consecutive-Ones.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/MooreVoting.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
