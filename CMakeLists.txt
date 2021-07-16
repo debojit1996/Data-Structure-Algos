@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.15)
+project(Data_Structure_Algos)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Data_Structure_Algos Kadanes.cpp)
+add_executable(MooreVoting MooreVoting.cpp)
