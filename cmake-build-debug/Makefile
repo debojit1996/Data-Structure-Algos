@@ -162,6 +162,19 @@ Leader-Problem/fast:
 .PHONY : Leader-Problem/fast
 
 #=============================================================================
+# Target rules for targets named FindUniqueElement
+
+# Build rule for target.
+FindUniqueElement: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 FindUniqueElement
+.PHONY : FindUniqueElement
+
+# fast build rule for target.
+FindUniqueElement/fast:
+	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/build
+.PHONY : FindUniqueElement/fast
+
+#=============================================================================
 # Target rules for targets named ArrayElementsNByK
 
 # Build rule for target.
@@ -175,17 +188,17 @@ ArrayElementsNByK/fast:
 .PHONY : ArrayElementsNByK/fast
 
 #=============================================================================
-# Target rules for targets named FindUniqueElement
+# Target rules for targets named LinkedListConstruct
 
 # Build rule for target.
-FindUniqueElement: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 FindUniqueElement
-.PHONY : FindUniqueElement
+LinkedListConstruct: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 LinkedListConstruct
+.PHONY : LinkedListConstruct
 
 # fast build rule for target.
-FindUniqueElement/fast:
-	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/build
-.PHONY : FindUniqueElement/fast
+LinkedListConstruct/fast:
+	$(MAKE) -f CMakeFiles\LinkedListConstruct.dir\build.make CMakeFiles/LinkedListConstruct.dir/build
+.PHONY : LinkedListConstruct/fast
 
 ArrayElementsNByK.obj: ArrayElementsNByK.cpp.obj
 
@@ -295,6 +308,33 @@ Leader-Problem.cpp.s:
 	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/Leader-Problem.cpp.s
 .PHONY : Leader-Problem.cpp.s
 
+LinkedListConstruct.obj: LinkedListConstruct.cpp.obj
+
+.PHONY : LinkedListConstruct.obj
+
+# target to build an object file
+LinkedListConstruct.cpp.obj:
+	$(MAKE) -f CMakeFiles\LinkedListConstruct.dir\build.make CMakeFiles/LinkedListConstruct.dir/LinkedListConstruct.cpp.obj
+.PHONY : LinkedListConstruct.cpp.obj
+
+LinkedListConstruct.i: LinkedListConstruct.cpp.i
+
+.PHONY : LinkedListConstruct.i
+
+# target to preprocess a source file
+LinkedListConstruct.cpp.i:
+	$(MAKE) -f CMakeFiles\LinkedListConstruct.dir\build.make CMakeFiles/LinkedListConstruct.dir/LinkedListConstruct.cpp.i
+.PHONY : LinkedListConstruct.cpp.i
+
+LinkedListConstruct.s: LinkedListConstruct.cpp.s
+
+.PHONY : LinkedListConstruct.s
+
+# target to generate assembly for a file
+LinkedListConstruct.cpp.s:
+	$(MAKE) -f CMakeFiles\LinkedListConstruct.dir\build.make CMakeFiles/LinkedListConstruct.dir/LinkedListConstruct.cpp.s
+.PHONY : LinkedListConstruct.cpp.s
+
 Maximum-Consecutive-Ones.obj: Maximum-Consecutive-Ones.cpp.obj
 
 .PHONY : Maximum-Consecutive-Ones.obj
@@ -360,8 +400,9 @@ help:
 	@echo ... Maximum-Consecutive-Ones
 	@echo ... MooreVoting
 	@echo ... Leader-Problem
-	@echo ... ArrayElementsNByK
 	@echo ... FindUniqueElement
+	@echo ... ArrayElementsNByK
+	@echo ... LinkedListConstruct
 	@echo ... rebuild_cache
 	@echo ... ArrayElementsNByK.obj
 	@echo ... ArrayElementsNByK.i
@@ -375,6 +416,9 @@ help:
 	@echo ... Leader-Problem.obj
 	@echo ... Leader-Problem.i
 	@echo ... Leader-Problem.s
+	@echo ... LinkedListConstruct.obj
+	@echo ... LinkedListConstruct.i
+	@echo ... LinkedListConstruct.s
 	@echo ... Maximum-Consecutive-Ones.obj
 	@echo ... Maximum-Consecutive-Ones.i
 	@echo ... Maximum-Consecutive-Ones.s

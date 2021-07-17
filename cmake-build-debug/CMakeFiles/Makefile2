@@ -56,8 +56,9 @@ all: CMakeFiles/Data_Structure_Algos.dir/all
 all: CMakeFiles/Maximum-Consecutive-Ones.dir/all
 all: CMakeFiles/MooreVoting.dir/all
 all: CMakeFiles/Leader-Problem.dir/all
-all: CMakeFiles/ArrayElementsNByK.dir/all
 all: CMakeFiles/FindUniqueElement.dir/all
+all: CMakeFiles/ArrayElementsNByK.dir/all
+all: CMakeFiles/LinkedListConstruct.dir/all
 
 .PHONY : all
 
@@ -66,8 +67,9 @@ clean: CMakeFiles/Data_Structure_Algos.dir/clean
 clean: CMakeFiles/Maximum-Consecutive-Ones.dir/clean
 clean: CMakeFiles/MooreVoting.dir/clean
 clean: CMakeFiles/Leader-Problem.dir/clean
-clean: CMakeFiles/ArrayElementsNByK.dir/clean
 clean: CMakeFiles/FindUniqueElement.dir/clean
+clean: CMakeFiles/ArrayElementsNByK.dir/clean
+clean: CMakeFiles/LinkedListConstruct.dir/clean
 
 .PHONY : clean
 
@@ -110,7 +112,7 @@ CMakeFiles/Data_Structure_Algos.dir/clean:
 CMakeFiles/Maximum-Consecutive-Ones.dir/all:
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/depend
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Maximum-Consecutive-Ones"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Maximum-Consecutive-Ones"
 .PHONY : CMakeFiles/Maximum-Consecutive-Ones.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +139,7 @@ CMakeFiles/Maximum-Consecutive-Ones.dir/clean:
 CMakeFiles/MooreVoting.dir/all:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/depend
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target MooreVoting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target MooreVoting"
 .PHONY : CMakeFiles/MooreVoting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -185,6 +187,33 @@ CMakeFiles/Leader-Problem.dir/clean:
 .PHONY : CMakeFiles/Leader-Problem.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/FindUniqueElement.dir
+
+# All Build rule for target.
+CMakeFiles/FindUniqueElement.dir/all:
+	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/depend
+	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target FindUniqueElement"
+.PHONY : CMakeFiles/FindUniqueElement.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FindUniqueElement.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/FindUniqueElement.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/FindUniqueElement.dir/rule
+
+# Convenience name for target.
+FindUniqueElement: CMakeFiles/FindUniqueElement.dir/rule
+
+.PHONY : FindUniqueElement
+
+# clean rule for target.
+CMakeFiles/FindUniqueElement.dir/clean:
+	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/clean
+.PHONY : CMakeFiles/FindUniqueElement.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ArrayElementsNByK.dir
 
 # All Build rule for target.
@@ -212,31 +241,31 @@ CMakeFiles/ArrayElementsNByK.dir/clean:
 .PHONY : CMakeFiles/ArrayElementsNByK.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/FindUniqueElement.dir
+# Target rules for target CMakeFiles/LinkedListConstruct.dir
 
 # All Build rule for target.
-CMakeFiles/FindUniqueElement.dir/all:
-	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/depend
-	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target FindUniqueElement"
-.PHONY : CMakeFiles/FindUniqueElement.dir/all
+CMakeFiles/LinkedListConstruct.dir/all:
+	$(MAKE) -f CMakeFiles\LinkedListConstruct.dir\build.make CMakeFiles/LinkedListConstruct.dir/depend
+	$(MAKE) -f CMakeFiles\LinkedListConstruct.dir\build.make CMakeFiles/LinkedListConstruct.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target LinkedListConstruct"
+.PHONY : CMakeFiles/LinkedListConstruct.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/FindUniqueElement.dir/rule: cmake_check_build_system
+CMakeFiles/LinkedListConstruct.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/FindUniqueElement.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/LinkedListConstruct.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/FindUniqueElement.dir/rule
+.PHONY : CMakeFiles/LinkedListConstruct.dir/rule
 
 # Convenience name for target.
-FindUniqueElement: CMakeFiles/FindUniqueElement.dir/rule
+LinkedListConstruct: CMakeFiles/LinkedListConstruct.dir/rule
 
-.PHONY : FindUniqueElement
+.PHONY : LinkedListConstruct
 
 # clean rule for target.
-CMakeFiles/FindUniqueElement.dir/clean:
-	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/clean
-.PHONY : CMakeFiles/FindUniqueElement.dir/clean
+CMakeFiles/LinkedListConstruct.dir/clean:
+	$(MAKE) -f CMakeFiles\LinkedListConstruct.dir\build.make CMakeFiles/LinkedListConstruct.dir/clean
+.PHONY : CMakeFiles/LinkedListConstruct.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
