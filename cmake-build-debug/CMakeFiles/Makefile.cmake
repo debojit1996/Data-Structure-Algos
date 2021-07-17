@@ -57,4 +57,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Maximum-Consecutive-Ones.dir/DependInfo.cmake"
   "CMakeFiles/MooreVoting.dir/DependInfo.cmake"
   "CMakeFiles/Leader-Problem.dir/DependInfo.cmake"
+  "CMakeFiles/FindUniqueElement.dir/DependInfo.cmake"
   )

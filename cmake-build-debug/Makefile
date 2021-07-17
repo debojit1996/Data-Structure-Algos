@@ -161,6 +161,46 @@ Leader-Problem/fast:
 	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/build
 .PHONY : Leader-Problem/fast
 
+#=============================================================================
+# Target rules for targets named FindUniqueElement
+
+# Build rule for target.
+FindUniqueElement: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 FindUniqueElement
+.PHONY : FindUniqueElement
+
+# fast build rule for target.
+FindUniqueElement/fast:
+	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/build
+.PHONY : FindUniqueElement/fast
+
+FindUniqueElement.obj: FindUniqueElement.cpp.obj
+
+.PHONY : FindUniqueElement.obj
+
+# target to build an object file
+FindUniqueElement.cpp.obj:
+	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/FindUniqueElement.cpp.obj
+.PHONY : FindUniqueElement.cpp.obj
+
+FindUniqueElement.i: FindUniqueElement.cpp.i
+
+.PHONY : FindUniqueElement.i
+
+# target to preprocess a source file
+FindUniqueElement.cpp.i:
+	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/FindUniqueElement.cpp.i
+.PHONY : FindUniqueElement.cpp.i
+
+FindUniqueElement.s: FindUniqueElement.cpp.s
+
+.PHONY : FindUniqueElement.s
+
+# target to generate assembly for a file
+FindUniqueElement.cpp.s:
+	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/FindUniqueElement.cpp.s
+.PHONY : FindUniqueElement.cpp.s
+
 Kadanes.obj: Kadanes.cpp.obj
 
 .PHONY : Kadanes.obj
@@ -280,7 +320,11 @@ help:
 	@echo ... Maximum-Consecutive-Ones
 	@echo ... MooreVoting
 	@echo ... Leader-Problem
+	@echo ... FindUniqueElement
 	@echo ... rebuild_cache
+	@echo ... FindUniqueElement.obj
+	@echo ... FindUniqueElement.i
+	@echo ... FindUniqueElement.s
 	@echo ... Kadanes.obj
 	@echo ... Kadanes.i
 	@echo ... Kadanes.s
