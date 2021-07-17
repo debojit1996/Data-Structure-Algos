@@ -162,6 +162,19 @@ Leader-Problem/fast:
 .PHONY : Leader-Problem/fast
 
 #=============================================================================
+# Target rules for targets named ArrayElementsNByK
+
+# Build rule for target.
+ArrayElementsNByK: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ArrayElementsNByK
+.PHONY : ArrayElementsNByK
+
+# fast build rule for target.
+ArrayElementsNByK/fast:
+	$(MAKE) -f CMakeFiles\ArrayElementsNByK.dir\build.make CMakeFiles/ArrayElementsNByK.dir/build
+.PHONY : ArrayElementsNByK/fast
+
+#=============================================================================
 # Target rules for targets named FindUniqueElement
 
 # Build rule for target.
@@ -173,6 +186,33 @@ FindUniqueElement: cmake_check_build_system
 FindUniqueElement/fast:
 	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/build
 .PHONY : FindUniqueElement/fast
+
+ArrayElementsNByK.obj: ArrayElementsNByK.cpp.obj
+
+.PHONY : ArrayElementsNByK.obj
+
+# target to build an object file
+ArrayElementsNByK.cpp.obj:
+	$(MAKE) -f CMakeFiles\ArrayElementsNByK.dir\build.make CMakeFiles/ArrayElementsNByK.dir/ArrayElementsNByK.cpp.obj
+.PHONY : ArrayElementsNByK.cpp.obj
+
+ArrayElementsNByK.i: ArrayElementsNByK.cpp.i
+
+.PHONY : ArrayElementsNByK.i
+
+# target to preprocess a source file
+ArrayElementsNByK.cpp.i:
+	$(MAKE) -f CMakeFiles\ArrayElementsNByK.dir\build.make CMakeFiles/ArrayElementsNByK.dir/ArrayElementsNByK.cpp.i
+.PHONY : ArrayElementsNByK.cpp.i
+
+ArrayElementsNByK.s: ArrayElementsNByK.cpp.s
+
+.PHONY : ArrayElementsNByK.s
+
+# target to generate assembly for a file
+ArrayElementsNByK.cpp.s:
+	$(MAKE) -f CMakeFiles\ArrayElementsNByK.dir\build.make CMakeFiles/ArrayElementsNByK.dir/ArrayElementsNByK.cpp.s
+.PHONY : ArrayElementsNByK.cpp.s
 
 FindUniqueElement.obj: FindUniqueElement.cpp.obj
 
@@ -320,8 +360,12 @@ help:
 	@echo ... Maximum-Consecutive-Ones
 	@echo ... MooreVoting
 	@echo ... Leader-Problem
+	@echo ... ArrayElementsNByK
 	@echo ... FindUniqueElement
 	@echo ... rebuild_cache
+	@echo ... ArrayElementsNByK.obj
+	@echo ... ArrayElementsNByK.i
+	@echo ... ArrayElementsNByK.s
 	@echo ... FindUniqueElement.obj
 	@echo ... FindUniqueElement.i
 	@echo ... FindUniqueElement.s
