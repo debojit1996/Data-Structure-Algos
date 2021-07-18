@@ -58,6 +58,7 @@ all: CMakeFiles/MooreVoting.dir/all
 all: CMakeFiles/Leader-Problem.dir/all
 all: CMakeFiles/FindUniqueElement.dir/all
 all: CMakeFiles/ArrayElementsNByK.dir/all
+all: CMakeFiles/LinkedListDeleteByKey.dir/all
 all: CMakeFiles/LinkedListConstruct.dir/all
 
 .PHONY : all
@@ -69,6 +70,7 @@ clean: CMakeFiles/MooreVoting.dir/clean
 clean: CMakeFiles/Leader-Problem.dir/clean
 clean: CMakeFiles/FindUniqueElement.dir/clean
 clean: CMakeFiles/ArrayElementsNByK.dir/clean
+clean: CMakeFiles/LinkedListDeleteByKey.dir/clean
 clean: CMakeFiles/LinkedListConstruct.dir/clean
 
 .PHONY : clean
@@ -112,7 +114,7 @@ CMakeFiles/Data_Structure_Algos.dir/clean:
 CMakeFiles/Maximum-Consecutive-Ones.dir/all:
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/depend
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Maximum-Consecutive-Ones"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Maximum-Consecutive-Ones"
 .PHONY : CMakeFiles/Maximum-Consecutive-Ones.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,7 +141,7 @@ CMakeFiles/Maximum-Consecutive-Ones.dir/clean:
 CMakeFiles/MooreVoting.dir/all:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/depend
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target MooreVoting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target MooreVoting"
 .PHONY : CMakeFiles/MooreVoting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -239,6 +241,33 @@ ArrayElementsNByK: CMakeFiles/ArrayElementsNByK.dir/rule
 CMakeFiles/ArrayElementsNByK.dir/clean:
 	$(MAKE) -f CMakeFiles\ArrayElementsNByK.dir\build.make CMakeFiles/ArrayElementsNByK.dir/clean
 .PHONY : CMakeFiles/ArrayElementsNByK.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/LinkedListDeleteByKey.dir
+
+# All Build rule for target.
+CMakeFiles/LinkedListDeleteByKey.dir/all:
+	$(MAKE) -f CMakeFiles\LinkedListDeleteByKey.dir\build.make CMakeFiles/LinkedListDeleteByKey.dir/depend
+	$(MAKE) -f CMakeFiles\LinkedListDeleteByKey.dir\build.make CMakeFiles/LinkedListDeleteByKey.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target LinkedListDeleteByKey"
+.PHONY : CMakeFiles/LinkedListDeleteByKey.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LinkedListDeleteByKey.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/LinkedListDeleteByKey.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/LinkedListDeleteByKey.dir/rule
+
+# Convenience name for target.
+LinkedListDeleteByKey: CMakeFiles/LinkedListDeleteByKey.dir/rule
+
+.PHONY : LinkedListDeleteByKey
+
+# clean rule for target.
+CMakeFiles/LinkedListDeleteByKey.dir/clean:
+	$(MAKE) -f CMakeFiles\LinkedListDeleteByKey.dir\build.make CMakeFiles/LinkedListDeleteByKey.dir/clean
+.PHONY : CMakeFiles/LinkedListDeleteByKey.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/LinkedListConstruct.dir
