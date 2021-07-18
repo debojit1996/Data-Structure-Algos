@@ -15,6 +15,8 @@ void printNthNodeFromEnd(Node *pNode, int n);
 
 void printNodes(Node *pNode);
 
+void printMiddle(Node *pNode);
+
 int main() {
     Node *head = nullptr;
 
@@ -30,6 +32,9 @@ int main() {
     int n = 6; // Find nth node from end of linked list
 
     printNthNodeFromEnd(head, n);
+
+    cout<<"\n Middle eleemnt in the linked list: ";
+    printMiddle(head);
 }
 
 void printNodes(Node *node) {
@@ -75,5 +80,20 @@ void pushFront(Node **node, int data) {
     new_node->data = data;
     new_node->next = (*node);
     (*node) = new_node;
+}
+
+void printMiddle(class Node *head){
+    Node *slow_ptr = head;
+    Node *fast_ptr = head;
+
+    if (head != nullptr)
+    {
+        while (fast_ptr != nullptr && fast_ptr->next != nullptr)
+        {
+            fast_ptr = fast_ptr->next->next;
+            slow_ptr = slow_ptr->next;
+        }
+        cout << "The middle element is [" << slow_ptr->data << "]" << endl;
+    }
 }
 
