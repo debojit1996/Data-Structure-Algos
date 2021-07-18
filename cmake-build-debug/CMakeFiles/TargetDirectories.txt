@@ -6,5 +6,6 @@ C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFil
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/ArrayElementsNByK.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/LinkedListDeleteByKey.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/LinkedListConstruct.dir
+C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/LinkedListNthNodeFromEnd.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

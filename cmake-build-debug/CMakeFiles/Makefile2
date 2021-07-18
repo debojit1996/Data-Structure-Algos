@@ -60,6 +60,7 @@ all: CMakeFiles/FindUniqueElement.dir/all
 all: CMakeFiles/ArrayElementsNByK.dir/all
 all: CMakeFiles/LinkedListDeleteByKey.dir/all
 all: CMakeFiles/LinkedListConstruct.dir/all
+all: CMakeFiles/LinkedListNthNodeFromEnd.dir/all
 
 .PHONY : all
 
@@ -72,6 +73,7 @@ clean: CMakeFiles/FindUniqueElement.dir/clean
 clean: CMakeFiles/ArrayElementsNByK.dir/clean
 clean: CMakeFiles/LinkedListDeleteByKey.dir/clean
 clean: CMakeFiles/LinkedListConstruct.dir/clean
+clean: CMakeFiles/LinkedListNthNodeFromEnd.dir/clean
 
 .PHONY : clean
 
@@ -114,7 +116,7 @@ CMakeFiles/Data_Structure_Algos.dir/clean:
 CMakeFiles/Maximum-Consecutive-Ones.dir/all:
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/depend
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Maximum-Consecutive-Ones"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Maximum-Consecutive-Ones"
 .PHONY : CMakeFiles/Maximum-Consecutive-Ones.dir/all
 
 # Build rule for subdir invocation for target.
@@ -141,7 +143,7 @@ CMakeFiles/Maximum-Consecutive-Ones.dir/clean:
 CMakeFiles/MooreVoting.dir/all:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/depend
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target MooreVoting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target MooreVoting"
 .PHONY : CMakeFiles/MooreVoting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -295,6 +297,33 @@ LinkedListConstruct: CMakeFiles/LinkedListConstruct.dir/rule
 CMakeFiles/LinkedListConstruct.dir/clean:
 	$(MAKE) -f CMakeFiles\LinkedListConstruct.dir\build.make CMakeFiles/LinkedListConstruct.dir/clean
 .PHONY : CMakeFiles/LinkedListConstruct.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/LinkedListNthNodeFromEnd.dir
+
+# All Build rule for target.
+CMakeFiles/LinkedListNthNodeFromEnd.dir/all:
+	$(MAKE) -f CMakeFiles\LinkedListNthNodeFromEnd.dir\build.make CMakeFiles/LinkedListNthNodeFromEnd.dir/depend
+	$(MAKE) -f CMakeFiles\LinkedListNthNodeFromEnd.dir\build.make CMakeFiles/LinkedListNthNodeFromEnd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target LinkedListNthNodeFromEnd"
+.PHONY : CMakeFiles/LinkedListNthNodeFromEnd.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LinkedListNthNodeFromEnd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/LinkedListNthNodeFromEnd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/LinkedListNthNodeFromEnd.dir/rule
+
+# Convenience name for target.
+LinkedListNthNodeFromEnd: CMakeFiles/LinkedListNthNodeFromEnd.dir/rule
+
+.PHONY : LinkedListNthNodeFromEnd
+
+# clean rule for target.
+CMakeFiles/LinkedListNthNodeFromEnd.dir/clean:
+	$(MAKE) -f CMakeFiles\LinkedListNthNodeFromEnd.dir\build.make CMakeFiles/LinkedListNthNodeFromEnd.dir/clean
+.PHONY : CMakeFiles/LinkedListNthNodeFromEnd.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
