@@ -11,15 +11,15 @@ public:
     Node *next;
 };
 
-void pushFront(Node **pNode, int i);
+void pushFront(Node **node, int data);
 
-void printNodes(Node *pNode);
+void printNodes(Node *node);
 
-bool detectLoopUsingSet(Node *pNode);
+bool detectLoopUsingSet(Node *head);
 
-bool detectLoopUsingFlag(Node *pNode);
+bool detectLoopUsingFlag(Node *head);
 
-bool detectLoopUsingFloyd(Node *pNode);
+bool detectLoopUsingFloyd(Node *head);
 
 int main() {
     Node *head = nullptr;
