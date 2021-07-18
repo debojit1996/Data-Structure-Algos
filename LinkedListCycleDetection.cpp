@@ -21,6 +21,8 @@ bool detectLoopUsingFlag(Node *head);
 
 bool detectLoopUsingFloyd(Node *head);
 
+int countNodesInLoop(Node *loopNode);
+
 int main() {
     Node *head = nullptr;
 
@@ -41,8 +43,18 @@ int main() {
     // Detect loop using extra variable in Node class named flag
     cout<<"\nContains a loop using flag variable: "<<detectLoopUsingFlag(head);
 
-    // Detect loop using Floyd Cycle Detection algorithm
-    cout<<"\nContains loop using Floyd's algo: "<<detectLoopUsingFloyd(head);
+    // Detect loop using Floyd Cycle Detection algorithm and print number of loop elements
+    detectLoopUsingFloyd(head);
+}
+
+int countNodesInLoop(Node *loopNode) {
+    int count = 1;
+    Node *temp = loopNode;
+    while(temp->next != loopNode) {
+        count++;
+        temp = temp->next;
+    }
+    return count;
 }
 
 bool detectLoopUsingFlag(Node *head) {
@@ -97,6 +109,9 @@ bool detectLoopUsingFloyd(Node *head) {
         slow_p = slow_p->next;
         fast_p = fast_p->next->next;
         if (slow_p == fast_p) {
+            int numberOfNodesInLoop = countNodesInLoop(slow_p);
+            cout<<"\nLength of loop size: "<<numberOfNodesInLoop<<"\n";
+            cout<<"Contains loop using Floyd's algo: "<<true;
             return true;
         }
     }
