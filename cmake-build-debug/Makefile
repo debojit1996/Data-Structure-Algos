@@ -239,6 +239,45 @@ LinkedListCycleDetection/fast:
 	$(MAKE) -f CMakeFiles\LinkedListCycleDetection.dir\build.make CMakeFiles/LinkedListCycleDetection.dir/build
 .PHONY : LinkedListCycleDetection/fast
 
+#=============================================================================
+# Target rules for targets named GraphBfs
+
+# Build rule for target.
+GraphBfs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 GraphBfs
+.PHONY : GraphBfs
+
+# fast build rule for target.
+GraphBfs/fast:
+	$(MAKE) -f CMakeFiles\GraphBfs.dir\build.make CMakeFiles/GraphBfs.dir/build
+.PHONY : GraphBfs/fast
+
+#=============================================================================
+# Target rules for targets named TreeBasic
+
+# Build rule for target.
+TreeBasic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 TreeBasic
+.PHONY : TreeBasic
+
+# fast build rule for target.
+TreeBasic/fast:
+	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/build
+.PHONY : TreeBasic/fast
+
+#=============================================================================
+# Target rules for targets named DisjointSet
+
+# Build rule for target.
+DisjointSet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 DisjointSet
+.PHONY : DisjointSet
+
+# fast build rule for target.
+DisjointSet/fast:
+	$(MAKE) -f CMakeFiles\DisjointSet.dir\build.make CMakeFiles/DisjointSet.dir/build
+.PHONY : DisjointSet/fast
+
 ArrayElementsNByK.obj: ArrayElementsNByK.cpp.obj
 
 .PHONY : ArrayElementsNByK.obj
@@ -266,6 +305,33 @@ ArrayElementsNByK.cpp.s:
 	$(MAKE) -f CMakeFiles\ArrayElementsNByK.dir\build.make CMakeFiles/ArrayElementsNByK.dir/ArrayElementsNByK.cpp.s
 .PHONY : ArrayElementsNByK.cpp.s
 
+DisjointSet.obj: DisjointSet.cpp.obj
+
+.PHONY : DisjointSet.obj
+
+# target to build an object file
+DisjointSet.cpp.obj:
+	$(MAKE) -f CMakeFiles\DisjointSet.dir\build.make CMakeFiles/DisjointSet.dir/DisjointSet.cpp.obj
+.PHONY : DisjointSet.cpp.obj
+
+DisjointSet.i: DisjointSet.cpp.i
+
+.PHONY : DisjointSet.i
+
+# target to preprocess a source file
+DisjointSet.cpp.i:
+	$(MAKE) -f CMakeFiles\DisjointSet.dir\build.make CMakeFiles/DisjointSet.dir/DisjointSet.cpp.i
+.PHONY : DisjointSet.cpp.i
+
+DisjointSet.s: DisjointSet.cpp.s
+
+.PHONY : DisjointSet.s
+
+# target to generate assembly for a file
+DisjointSet.cpp.s:
+	$(MAKE) -f CMakeFiles\DisjointSet.dir\build.make CMakeFiles/DisjointSet.dir/DisjointSet.cpp.s
+.PHONY : DisjointSet.cpp.s
+
 FindUniqueElement.obj: FindUniqueElement.cpp.obj
 
 .PHONY : FindUniqueElement.obj
@@ -292,6 +358,33 @@ FindUniqueElement.s: FindUniqueElement.cpp.s
 FindUniqueElement.cpp.s:
 	$(MAKE) -f CMakeFiles\FindUniqueElement.dir\build.make CMakeFiles/FindUniqueElement.dir/FindUniqueElement.cpp.s
 .PHONY : FindUniqueElement.cpp.s
+
+GraphBfs.obj: GraphBfs.cpp.obj
+
+.PHONY : GraphBfs.obj
+
+# target to build an object file
+GraphBfs.cpp.obj:
+	$(MAKE) -f CMakeFiles\GraphBfs.dir\build.make CMakeFiles/GraphBfs.dir/GraphBfs.cpp.obj
+.PHONY : GraphBfs.cpp.obj
+
+GraphBfs.i: GraphBfs.cpp.i
+
+.PHONY : GraphBfs.i
+
+# target to preprocess a source file
+GraphBfs.cpp.i:
+	$(MAKE) -f CMakeFiles\GraphBfs.dir\build.make CMakeFiles/GraphBfs.dir/GraphBfs.cpp.i
+.PHONY : GraphBfs.cpp.i
+
+GraphBfs.s: GraphBfs.cpp.s
+
+.PHONY : GraphBfs.s
+
+# target to generate assembly for a file
+GraphBfs.cpp.s:
+	$(MAKE) -f CMakeFiles\GraphBfs.dir\build.make CMakeFiles/GraphBfs.dir/GraphBfs.cpp.s
+.PHONY : GraphBfs.cpp.s
 
 Kadanes.obj: Kadanes.cpp.obj
 
@@ -509,6 +602,33 @@ MooreVoting.cpp.s:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/MooreVoting.cpp.s
 .PHONY : MooreVoting.cpp.s
 
+TreeBasic.obj: TreeBasic.cpp.obj
+
+.PHONY : TreeBasic.obj
+
+# target to build an object file
+TreeBasic.cpp.obj:
+	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/TreeBasic.cpp.obj
+.PHONY : TreeBasic.cpp.obj
+
+TreeBasic.i: TreeBasic.cpp.i
+
+.PHONY : TreeBasic.i
+
+# target to preprocess a source file
+TreeBasic.cpp.i:
+	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/TreeBasic.cpp.i
+.PHONY : TreeBasic.cpp.i
+
+TreeBasic.s: TreeBasic.cpp.s
+
+.PHONY : TreeBasic.s
+
+# target to generate assembly for a file
+TreeBasic.cpp.s:
+	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/TreeBasic.cpp.s
+.PHONY : TreeBasic.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -525,14 +645,23 @@ help:
 	@echo ... LinkedListConstruct
 	@echo ... LinkedListNthNodeFromEnd
 	@echo ... LinkedListCycleDetection
+	@echo ... GraphBfs
+	@echo ... TreeBasic
+	@echo ... DisjointSet
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ArrayElementsNByK.obj
 	@echo ... ArrayElementsNByK.i
 	@echo ... ArrayElementsNByK.s
+	@echo ... DisjointSet.obj
+	@echo ... DisjointSet.i
+	@echo ... DisjointSet.s
 	@echo ... FindUniqueElement.obj
 	@echo ... FindUniqueElement.i
 	@echo ... FindUniqueElement.s
+	@echo ... GraphBfs.obj
+	@echo ... GraphBfs.i
+	@echo ... GraphBfs.s
 	@echo ... Kadanes.obj
 	@echo ... Kadanes.i
 	@echo ... Kadanes.s
@@ -557,6 +686,9 @@ help:
 	@echo ... MooreVoting.obj
 	@echo ... MooreVoting.i
 	@echo ... MooreVoting.s
+	@echo ... TreeBasic.obj
+	@echo ... TreeBasic.i
+	@echo ... TreeBasic.s
 .PHONY : help
 
 
