@@ -62,8 +62,10 @@ all: CMakeFiles/LinkedListDeleteByKey.dir/all
 all: CMakeFiles/LinkedListConstruct.dir/all
 all: CMakeFiles/LinkedListNthNodeFromEnd.dir/all
 all: CMakeFiles/LinkedListCycleDetection.dir/all
+all: CMakeFiles/KruskalMST.dir/all
 all: CMakeFiles/GraphBfs.dir/all
 all: CMakeFiles/TreeBasic.dir/all
+all: CMakeFiles/PrimMST.dir/all
 all: CMakeFiles/DisjointSet.dir/all
 
 .PHONY : all
@@ -79,8 +81,10 @@ clean: CMakeFiles/LinkedListDeleteByKey.dir/clean
 clean: CMakeFiles/LinkedListConstruct.dir/clean
 clean: CMakeFiles/LinkedListNthNodeFromEnd.dir/clean
 clean: CMakeFiles/LinkedListCycleDetection.dir/clean
+clean: CMakeFiles/KruskalMST.dir/clean
 clean: CMakeFiles/GraphBfs.dir/clean
 clean: CMakeFiles/TreeBasic.dir/clean
+clean: CMakeFiles/PrimMST.dir/clean
 clean: CMakeFiles/DisjointSet.dir/clean
 
 .PHONY : clean
@@ -124,7 +128,7 @@ CMakeFiles/Data_Structure_Algos.dir/clean:
 CMakeFiles/Maximum-Consecutive-Ones.dir/all:
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/depend
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target Maximum-Consecutive-Ones"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target Maximum-Consecutive-Ones"
 .PHONY : CMakeFiles/Maximum-Consecutive-Ones.dir/all
 
 # Build rule for subdir invocation for target.
@@ -151,7 +155,7 @@ CMakeFiles/Maximum-Consecutive-Ones.dir/clean:
 CMakeFiles/MooreVoting.dir/all:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/depend
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target MooreVoting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target MooreVoting"
 .PHONY : CMakeFiles/MooreVoting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -178,7 +182,7 @@ CMakeFiles/MooreVoting.dir/clean:
 CMakeFiles/Leader-Problem.dir/all:
 	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/depend
 	$(MAKE) -f CMakeFiles\Leader-Problem.dir\build.make CMakeFiles/Leader-Problem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Leader-Problem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Leader-Problem"
 .PHONY : CMakeFiles/Leader-Problem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -259,7 +263,7 @@ CMakeFiles/ArrayElementsNByK.dir/clean:
 CMakeFiles/LinkedListDeleteByKey.dir/all:
 	$(MAKE) -f CMakeFiles\LinkedListDeleteByKey.dir\build.make CMakeFiles/LinkedListDeleteByKey.dir/depend
 	$(MAKE) -f CMakeFiles\LinkedListDeleteByKey.dir\build.make CMakeFiles/LinkedListDeleteByKey.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target LinkedListDeleteByKey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target LinkedListDeleteByKey"
 .PHONY : CMakeFiles/LinkedListDeleteByKey.dir/all
 
 # Build rule for subdir invocation for target.
@@ -286,7 +290,7 @@ CMakeFiles/LinkedListDeleteByKey.dir/clean:
 CMakeFiles/LinkedListConstruct.dir/all:
 	$(MAKE) -f CMakeFiles\LinkedListConstruct.dir\build.make CMakeFiles/LinkedListConstruct.dir/depend
 	$(MAKE) -f CMakeFiles\LinkedListConstruct.dir\build.make CMakeFiles/LinkedListConstruct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target LinkedListConstruct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target LinkedListConstruct"
 .PHONY : CMakeFiles/LinkedListConstruct.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,7 +317,7 @@ CMakeFiles/LinkedListConstruct.dir/clean:
 CMakeFiles/LinkedListNthNodeFromEnd.dir/all:
 	$(MAKE) -f CMakeFiles\LinkedListNthNodeFromEnd.dir\build.make CMakeFiles/LinkedListNthNodeFromEnd.dir/depend
 	$(MAKE) -f CMakeFiles\LinkedListNthNodeFromEnd.dir\build.make CMakeFiles/LinkedListNthNodeFromEnd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target LinkedListNthNodeFromEnd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target LinkedListNthNodeFromEnd"
 .PHONY : CMakeFiles/LinkedListNthNodeFromEnd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -340,7 +344,7 @@ CMakeFiles/LinkedListNthNodeFromEnd.dir/clean:
 CMakeFiles/LinkedListCycleDetection.dir/all:
 	$(MAKE) -f CMakeFiles\LinkedListCycleDetection.dir\build.make CMakeFiles/LinkedListCycleDetection.dir/depend
 	$(MAKE) -f CMakeFiles\LinkedListCycleDetection.dir\build.make CMakeFiles/LinkedListCycleDetection.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target LinkedListCycleDetection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target LinkedListCycleDetection"
 .PHONY : CMakeFiles/LinkedListCycleDetection.dir/all
 
 # Build rule for subdir invocation for target.
@@ -359,6 +363,33 @@ LinkedListCycleDetection: CMakeFiles/LinkedListCycleDetection.dir/rule
 CMakeFiles/LinkedListCycleDetection.dir/clean:
 	$(MAKE) -f CMakeFiles\LinkedListCycleDetection.dir\build.make CMakeFiles/LinkedListCycleDetection.dir/clean
 .PHONY : CMakeFiles/LinkedListCycleDetection.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/KruskalMST.dir
+
+# All Build rule for target.
+CMakeFiles/KruskalMST.dir/all:
+	$(MAKE) -f CMakeFiles\KruskalMST.dir\build.make CMakeFiles/KruskalMST.dir/depend
+	$(MAKE) -f CMakeFiles\KruskalMST.dir\build.make CMakeFiles/KruskalMST.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target KruskalMST"
+.PHONY : CMakeFiles/KruskalMST.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/KruskalMST.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/KruskalMST.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/KruskalMST.dir/rule
+
+# Convenience name for target.
+KruskalMST: CMakeFiles/KruskalMST.dir/rule
+
+.PHONY : KruskalMST
+
+# clean rule for target.
+CMakeFiles/KruskalMST.dir/clean:
+	$(MAKE) -f CMakeFiles\KruskalMST.dir\build.make CMakeFiles/KruskalMST.dir/clean
+.PHONY : CMakeFiles/KruskalMST.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/GraphBfs.dir
@@ -394,7 +425,7 @@ CMakeFiles/GraphBfs.dir/clean:
 CMakeFiles/TreeBasic.dir/all:
 	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/depend
 	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target TreeBasic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target TreeBasic"
 .PHONY : CMakeFiles/TreeBasic.dir/all
 
 # Build rule for subdir invocation for target.
@@ -413,6 +444,33 @@ TreeBasic: CMakeFiles/TreeBasic.dir/rule
 CMakeFiles/TreeBasic.dir/clean:
 	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/clean
 .PHONY : CMakeFiles/TreeBasic.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/PrimMST.dir
+
+# All Build rule for target.
+CMakeFiles/PrimMST.dir/all:
+	$(MAKE) -f CMakeFiles\PrimMST.dir\build.make CMakeFiles/PrimMST.dir/depend
+	$(MAKE) -f CMakeFiles\PrimMST.dir\build.make CMakeFiles/PrimMST.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target PrimMST"
+.PHONY : CMakeFiles/PrimMST.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PrimMST.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/PrimMST.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/PrimMST.dir/rule
+
+# Convenience name for target.
+PrimMST: CMakeFiles/PrimMST.dir/rule
+
+.PHONY : PrimMST
+
+# clean rule for target.
+CMakeFiles/PrimMST.dir/clean:
+	$(MAKE) -f CMakeFiles\PrimMST.dir\build.make CMakeFiles/PrimMST.dir/clean
+.PHONY : CMakeFiles/PrimMST.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/DisjointSet.dir

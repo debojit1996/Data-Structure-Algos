@@ -63,7 +63,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LinkedListConstruct.dir/DependInfo.cmake"
   "CMakeFiles/LinkedListNthNodeFromEnd.dir/DependInfo.cmake"
   "CMakeFiles/LinkedListCycleDetection.dir/DependInfo.cmake"
+  "CMakeFiles/KruskalMST.dir/DependInfo.cmake"
   "CMakeFiles/GraphBfs.dir/DependInfo.cmake"
   "CMakeFiles/TreeBasic.dir/DependInfo.cmake"
+  "CMakeFiles/PrimMST.dir/DependInfo.cmake"
   "CMakeFiles/DisjointSet.dir/DependInfo.cmake"
   )

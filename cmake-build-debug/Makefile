@@ -240,6 +240,19 @@ LinkedListCycleDetection/fast:
 .PHONY : LinkedListCycleDetection/fast
 
 #=============================================================================
+# Target rules for targets named KruskalMST
+
+# Build rule for target.
+KruskalMST: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 KruskalMST
+.PHONY : KruskalMST
+
+# fast build rule for target.
+KruskalMST/fast:
+	$(MAKE) -f CMakeFiles\KruskalMST.dir\build.make CMakeFiles/KruskalMST.dir/build
+.PHONY : KruskalMST/fast
+
+#=============================================================================
 # Target rules for targets named GraphBfs
 
 # Build rule for target.
@@ -264,6 +277,19 @@ TreeBasic: cmake_check_build_system
 TreeBasic/fast:
 	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/build
 .PHONY : TreeBasic/fast
+
+#=============================================================================
+# Target rules for targets named PrimMST
+
+# Build rule for target.
+PrimMST: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 PrimMST
+.PHONY : PrimMST
+
+# fast build rule for target.
+PrimMST/fast:
+	$(MAKE) -f CMakeFiles\PrimMST.dir\build.make CMakeFiles/PrimMST.dir/build
+.PHONY : PrimMST/fast
 
 #=============================================================================
 # Target rules for targets named DisjointSet
@@ -412,6 +438,33 @@ Kadanes.s: Kadanes.cpp.s
 Kadanes.cpp.s:
 	$(MAKE) -f CMakeFiles\Data_Structure_Algos.dir\build.make CMakeFiles/Data_Structure_Algos.dir/Kadanes.cpp.s
 .PHONY : Kadanes.cpp.s
+
+KruskalMST.obj: KruskalMST.cpp.obj
+
+.PHONY : KruskalMST.obj
+
+# target to build an object file
+KruskalMST.cpp.obj:
+	$(MAKE) -f CMakeFiles\KruskalMST.dir\build.make CMakeFiles/KruskalMST.dir/KruskalMST.cpp.obj
+.PHONY : KruskalMST.cpp.obj
+
+KruskalMST.i: KruskalMST.cpp.i
+
+.PHONY : KruskalMST.i
+
+# target to preprocess a source file
+KruskalMST.cpp.i:
+	$(MAKE) -f CMakeFiles\KruskalMST.dir\build.make CMakeFiles/KruskalMST.dir/KruskalMST.cpp.i
+.PHONY : KruskalMST.cpp.i
+
+KruskalMST.s: KruskalMST.cpp.s
+
+.PHONY : KruskalMST.s
+
+# target to generate assembly for a file
+KruskalMST.cpp.s:
+	$(MAKE) -f CMakeFiles\KruskalMST.dir\build.make CMakeFiles/KruskalMST.dir/KruskalMST.cpp.s
+.PHONY : KruskalMST.cpp.s
 
 Leader-Problem.obj: Leader-Problem.cpp.obj
 
@@ -602,6 +655,33 @@ MooreVoting.cpp.s:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/MooreVoting.cpp.s
 .PHONY : MooreVoting.cpp.s
 
+PrimMST.obj: PrimMST.cpp.obj
+
+.PHONY : PrimMST.obj
+
+# target to build an object file
+PrimMST.cpp.obj:
+	$(MAKE) -f CMakeFiles\PrimMST.dir\build.make CMakeFiles/PrimMST.dir/PrimMST.cpp.obj
+.PHONY : PrimMST.cpp.obj
+
+PrimMST.i: PrimMST.cpp.i
+
+.PHONY : PrimMST.i
+
+# target to preprocess a source file
+PrimMST.cpp.i:
+	$(MAKE) -f CMakeFiles\PrimMST.dir\build.make CMakeFiles/PrimMST.dir/PrimMST.cpp.i
+.PHONY : PrimMST.cpp.i
+
+PrimMST.s: PrimMST.cpp.s
+
+.PHONY : PrimMST.s
+
+# target to generate assembly for a file
+PrimMST.cpp.s:
+	$(MAKE) -f CMakeFiles\PrimMST.dir\build.make CMakeFiles/PrimMST.dir/PrimMST.cpp.s
+.PHONY : PrimMST.cpp.s
+
 TreeBasic.obj: TreeBasic.cpp.obj
 
 .PHONY : TreeBasic.obj
@@ -645,8 +725,10 @@ help:
 	@echo ... LinkedListConstruct
 	@echo ... LinkedListNthNodeFromEnd
 	@echo ... LinkedListCycleDetection
+	@echo ... KruskalMST
 	@echo ... GraphBfs
 	@echo ... TreeBasic
+	@echo ... PrimMST
 	@echo ... DisjointSet
 	@echo ... edit_cache
 	@echo ... rebuild_cache
@@ -665,6 +747,9 @@ help:
 	@echo ... Kadanes.obj
 	@echo ... Kadanes.i
 	@echo ... Kadanes.s
+	@echo ... KruskalMST.obj
+	@echo ... KruskalMST.i
+	@echo ... KruskalMST.s
 	@echo ... Leader-Problem.obj
 	@echo ... Leader-Problem.i
 	@echo ... Leader-Problem.s
@@ -686,6 +771,9 @@ help:
 	@echo ... MooreVoting.obj
 	@echo ... MooreVoting.i
 	@echo ... MooreVoting.s
+	@echo ... PrimMST.obj
+	@echo ... PrimMST.i
+	@echo ... PrimMST.s
 	@echo ... TreeBasic.obj
 	@echo ... TreeBasic.i
 	@echo ... TreeBasic.s
