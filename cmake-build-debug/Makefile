@@ -304,6 +304,19 @@ DisjointSet/fast:
 	$(MAKE) -f CMakeFiles\DisjointSet.dir\build.make CMakeFiles/DisjointSet.dir/build
 .PHONY : DisjointSet/fast
 
+#=============================================================================
+# Target rules for targets named constructTree
+
+# Build rule for target.
+constructTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 constructTree
+.PHONY : constructTree
+
+# fast build rule for target.
+constructTree/fast:
+	$(MAKE) -f CMakeFiles\constructTree.dir\build.make CMakeFiles/constructTree.dir/build
+.PHONY : constructTree/fast
+
 ArrayElementsNByK.obj: ArrayElementsNByK.cpp.obj
 
 .PHONY : ArrayElementsNByK.obj
@@ -709,6 +722,33 @@ TreeBasic.cpp.s:
 	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/TreeBasic.cpp.s
 .PHONY : TreeBasic.cpp.s
 
+constructTree.obj: constructTree.cpp.obj
+
+.PHONY : constructTree.obj
+
+# target to build an object file
+constructTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\constructTree.dir\build.make CMakeFiles/constructTree.dir/constructTree.cpp.obj
+.PHONY : constructTree.cpp.obj
+
+constructTree.i: constructTree.cpp.i
+
+.PHONY : constructTree.i
+
+# target to preprocess a source file
+constructTree.cpp.i:
+	$(MAKE) -f CMakeFiles\constructTree.dir\build.make CMakeFiles/constructTree.dir/constructTree.cpp.i
+.PHONY : constructTree.cpp.i
+
+constructTree.s: constructTree.cpp.s
+
+.PHONY : constructTree.s
+
+# target to generate assembly for a file
+constructTree.cpp.s:
+	$(MAKE) -f CMakeFiles\constructTree.dir\build.make CMakeFiles/constructTree.dir/constructTree.cpp.s
+.PHONY : constructTree.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -730,6 +770,7 @@ help:
 	@echo ... TreeBasic
 	@echo ... PrimMST
 	@echo ... DisjointSet
+	@echo ... constructTree
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ArrayElementsNByK.obj
@@ -777,6 +818,9 @@ help:
 	@echo ... TreeBasic.obj
 	@echo ... TreeBasic.i
 	@echo ... TreeBasic.s
+	@echo ... constructTree.obj
+	@echo ... constructTree.i
+	@echo ... constructTree.s
 .PHONY : help
 
 

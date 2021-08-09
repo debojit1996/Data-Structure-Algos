@@ -67,6 +67,7 @@ all: CMakeFiles/GraphBfs.dir/all
 all: CMakeFiles/TreeBasic.dir/all
 all: CMakeFiles/PrimMST.dir/all
 all: CMakeFiles/DisjointSet.dir/all
+all: CMakeFiles/constructTree.dir/all
 
 .PHONY : all
 
@@ -86,6 +87,7 @@ clean: CMakeFiles/GraphBfs.dir/clean
 clean: CMakeFiles/TreeBasic.dir/clean
 clean: CMakeFiles/PrimMST.dir/clean
 clean: CMakeFiles/DisjointSet.dir/clean
+clean: CMakeFiles/constructTree.dir/clean
 
 .PHONY : clean
 
@@ -498,6 +500,33 @@ DisjointSet: CMakeFiles/DisjointSet.dir/rule
 CMakeFiles/DisjointSet.dir/clean:
 	$(MAKE) -f CMakeFiles\DisjointSet.dir\build.make CMakeFiles/DisjointSet.dir/clean
 .PHONY : CMakeFiles/DisjointSet.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/constructTree.dir
+
+# All Build rule for target.
+CMakeFiles/constructTree.dir/all:
+	$(MAKE) -f CMakeFiles\constructTree.dir\build.make CMakeFiles/constructTree.dir/depend
+	$(MAKE) -f CMakeFiles\constructTree.dir\build.make CMakeFiles/constructTree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target constructTree"
+.PHONY : CMakeFiles/constructTree.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/constructTree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/constructTree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/constructTree.dir/rule
+
+# Convenience name for target.
+constructTree: CMakeFiles/constructTree.dir/rule
+
+.PHONY : constructTree
+
+# clean rule for target.
+CMakeFiles/constructTree.dir/clean:
+	$(MAKE) -f CMakeFiles\constructTree.dir\build.make CMakeFiles/constructTree.dir/clean
+.PHONY : CMakeFiles/constructTree.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
