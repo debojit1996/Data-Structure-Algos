@@ -68,5 +68,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TreeBasic.dir/DependInfo.cmake"
   "CMakeFiles/PrimMST.dir/DependInfo.cmake"
   "CMakeFiles/DisjointSet.dir/DependInfo.cmake"
+  "CMakeFiles/LinkedListReverse.dir/DependInfo.cmake"
   "CMakeFiles/constructTree.dir/DependInfo.cmake"
+  "CMakeFiles/CloneLinkedList.dir/DependInfo.cmake"
   )

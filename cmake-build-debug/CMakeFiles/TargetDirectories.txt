@@ -13,6 +13,8 @@ C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFil
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/TreeBasic.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/PrimMST.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/DisjointSet.dir
+C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/LinkedListReverse.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/constructTree.dir
+C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/CloneLinkedList.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/320028052/CLionProjects/Data-Structure-Algos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

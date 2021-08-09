@@ -305,6 +305,19 @@ DisjointSet/fast:
 .PHONY : DisjointSet/fast
 
 #=============================================================================
+# Target rules for targets named LinkedListReverse
+
+# Build rule for target.
+LinkedListReverse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 LinkedListReverse
+.PHONY : LinkedListReverse
+
+# fast build rule for target.
+LinkedListReverse/fast:
+	$(MAKE) -f CMakeFiles\LinkedListReverse.dir\build.make CMakeFiles/LinkedListReverse.dir/build
+.PHONY : LinkedListReverse/fast
+
+#=============================================================================
 # Target rules for targets named constructTree
 
 # Build rule for target.
@@ -316,6 +329,19 @@ constructTree: cmake_check_build_system
 constructTree/fast:
 	$(MAKE) -f CMakeFiles\constructTree.dir\build.make CMakeFiles/constructTree.dir/build
 .PHONY : constructTree/fast
+
+#=============================================================================
+# Target rules for targets named CloneLinkedList
+
+# Build rule for target.
+CloneLinkedList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 CloneLinkedList
+.PHONY : CloneLinkedList
+
+# fast build rule for target.
+CloneLinkedList/fast:
+	$(MAKE) -f CMakeFiles\CloneLinkedList.dir\build.make CMakeFiles/CloneLinkedList.dir/build
+.PHONY : CloneLinkedList/fast
 
 ArrayElementsNByK.obj: ArrayElementsNByK.cpp.obj
 
@@ -343,6 +369,33 @@ ArrayElementsNByK.s: ArrayElementsNByK.cpp.s
 ArrayElementsNByK.cpp.s:
 	$(MAKE) -f CMakeFiles\ArrayElementsNByK.dir\build.make CMakeFiles/ArrayElementsNByK.dir/ArrayElementsNByK.cpp.s
 .PHONY : ArrayElementsNByK.cpp.s
+
+CloneLinkedList.obj: CloneLinkedList.cpp.obj
+
+.PHONY : CloneLinkedList.obj
+
+# target to build an object file
+CloneLinkedList.cpp.obj:
+	$(MAKE) -f CMakeFiles\CloneLinkedList.dir\build.make CMakeFiles/CloneLinkedList.dir/CloneLinkedList.cpp.obj
+.PHONY : CloneLinkedList.cpp.obj
+
+CloneLinkedList.i: CloneLinkedList.cpp.i
+
+.PHONY : CloneLinkedList.i
+
+# target to preprocess a source file
+CloneLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles\CloneLinkedList.dir\build.make CMakeFiles/CloneLinkedList.dir/CloneLinkedList.cpp.i
+.PHONY : CloneLinkedList.cpp.i
+
+CloneLinkedList.s: CloneLinkedList.cpp.s
+
+.PHONY : CloneLinkedList.s
+
+# target to generate assembly for a file
+CloneLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles\CloneLinkedList.dir\build.make CMakeFiles/CloneLinkedList.dir/CloneLinkedList.cpp.s
+.PHONY : CloneLinkedList.cpp.s
 
 DisjointSet.obj: DisjointSet.cpp.obj
 
@@ -614,6 +667,33 @@ LinkedListNthNodeFromEnd.cpp.s:
 	$(MAKE) -f CMakeFiles\LinkedListNthNodeFromEnd.dir\build.make CMakeFiles/LinkedListNthNodeFromEnd.dir/LinkedListNthNodeFromEnd.cpp.s
 .PHONY : LinkedListNthNodeFromEnd.cpp.s
 
+LinkedListReverse.obj: LinkedListReverse.cpp.obj
+
+.PHONY : LinkedListReverse.obj
+
+# target to build an object file
+LinkedListReverse.cpp.obj:
+	$(MAKE) -f CMakeFiles\LinkedListReverse.dir\build.make CMakeFiles/LinkedListReverse.dir/LinkedListReverse.cpp.obj
+.PHONY : LinkedListReverse.cpp.obj
+
+LinkedListReverse.i: LinkedListReverse.cpp.i
+
+.PHONY : LinkedListReverse.i
+
+# target to preprocess a source file
+LinkedListReverse.cpp.i:
+	$(MAKE) -f CMakeFiles\LinkedListReverse.dir\build.make CMakeFiles/LinkedListReverse.dir/LinkedListReverse.cpp.i
+.PHONY : LinkedListReverse.cpp.i
+
+LinkedListReverse.s: LinkedListReverse.cpp.s
+
+.PHONY : LinkedListReverse.s
+
+# target to generate assembly for a file
+LinkedListReverse.cpp.s:
+	$(MAKE) -f CMakeFiles\LinkedListReverse.dir\build.make CMakeFiles/LinkedListReverse.dir/LinkedListReverse.cpp.s
+.PHONY : LinkedListReverse.cpp.s
+
 Maximum-Consecutive-Ones.obj: Maximum-Consecutive-Ones.cpp.obj
 
 .PHONY : Maximum-Consecutive-Ones.obj
@@ -770,12 +850,17 @@ help:
 	@echo ... TreeBasic
 	@echo ... PrimMST
 	@echo ... DisjointSet
+	@echo ... LinkedListReverse
 	@echo ... constructTree
+	@echo ... CloneLinkedList
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ArrayElementsNByK.obj
 	@echo ... ArrayElementsNByK.i
 	@echo ... ArrayElementsNByK.s
+	@echo ... CloneLinkedList.obj
+	@echo ... CloneLinkedList.i
+	@echo ... CloneLinkedList.s
 	@echo ... DisjointSet.obj
 	@echo ... DisjointSet.i
 	@echo ... DisjointSet.s
@@ -806,6 +891,9 @@ help:
 	@echo ... LinkedListNthNodeFromEnd.obj
 	@echo ... LinkedListNthNodeFromEnd.i
 	@echo ... LinkedListNthNodeFromEnd.s
+	@echo ... LinkedListReverse.obj
+	@echo ... LinkedListReverse.i
+	@echo ... LinkedListReverse.s
 	@echo ... Maximum-Consecutive-Ones.obj
 	@echo ... Maximum-Consecutive-Ones.i
 	@echo ... Maximum-Consecutive-Ones.s
