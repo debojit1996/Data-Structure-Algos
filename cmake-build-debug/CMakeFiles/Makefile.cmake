@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Data_Structure_Algos.dir/DependInfo.cmake"
+  "CMakeFiles/LinkedListReverseByK.dir/DependInfo.cmake"
   "CMakeFiles/Maximum-Consecutive-Ones.dir/DependInfo.cmake"
   "CMakeFiles/MooreVoting.dir/DependInfo.cmake"
   "CMakeFiles/Leader-Problem.dir/DependInfo.cmake"
@@ -71,4 +72,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LinkedListReverse.dir/DependInfo.cmake"
   "CMakeFiles/constructTree.dir/DependInfo.cmake"
   "CMakeFiles/CloneLinkedList.dir/DependInfo.cmake"
+  "CMakeFiles/MergeSort.dir/DependInfo.cmake"
   )

@@ -123,6 +123,19 @@ Data_Structure_Algos/fast:
 .PHONY : Data_Structure_Algos/fast
 
 #=============================================================================
+# Target rules for targets named LinkedListReverseByK
+
+# Build rule for target.
+LinkedListReverseByK: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 LinkedListReverseByK
+.PHONY : LinkedListReverseByK
+
+# fast build rule for target.
+LinkedListReverseByK/fast:
+	$(MAKE) -f CMakeFiles\LinkedListReverseByK.dir\build.make CMakeFiles/LinkedListReverseByK.dir/build
+.PHONY : LinkedListReverseByK/fast
+
+#=============================================================================
 # Target rules for targets named Maximum-Consecutive-Ones
 
 # Build rule for target.
@@ -342,6 +355,19 @@ CloneLinkedList: cmake_check_build_system
 CloneLinkedList/fast:
 	$(MAKE) -f CMakeFiles\CloneLinkedList.dir\build.make CMakeFiles/CloneLinkedList.dir/build
 .PHONY : CloneLinkedList/fast
+
+#=============================================================================
+# Target rules for targets named MergeSort
+
+# Build rule for target.
+MergeSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 MergeSort
+.PHONY : MergeSort
+
+# fast build rule for target.
+MergeSort/fast:
+	$(MAKE) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/build
+.PHONY : MergeSort/fast
 
 ArrayElementsNByK.obj: ArrayElementsNByK.cpp.obj
 
@@ -694,6 +720,33 @@ LinkedListReverse.cpp.s:
 	$(MAKE) -f CMakeFiles\LinkedListReverse.dir\build.make CMakeFiles/LinkedListReverse.dir/LinkedListReverse.cpp.s
 .PHONY : LinkedListReverse.cpp.s
 
+LinkedListReverseByK.obj: LinkedListReverseByK.cpp.obj
+
+.PHONY : LinkedListReverseByK.obj
+
+# target to build an object file
+LinkedListReverseByK.cpp.obj:
+	$(MAKE) -f CMakeFiles\LinkedListReverseByK.dir\build.make CMakeFiles/LinkedListReverseByK.dir/LinkedListReverseByK.cpp.obj
+.PHONY : LinkedListReverseByK.cpp.obj
+
+LinkedListReverseByK.i: LinkedListReverseByK.cpp.i
+
+.PHONY : LinkedListReverseByK.i
+
+# target to preprocess a source file
+LinkedListReverseByK.cpp.i:
+	$(MAKE) -f CMakeFiles\LinkedListReverseByK.dir\build.make CMakeFiles/LinkedListReverseByK.dir/LinkedListReverseByK.cpp.i
+.PHONY : LinkedListReverseByK.cpp.i
+
+LinkedListReverseByK.s: LinkedListReverseByK.cpp.s
+
+.PHONY : LinkedListReverseByK.s
+
+# target to generate assembly for a file
+LinkedListReverseByK.cpp.s:
+	$(MAKE) -f CMakeFiles\LinkedListReverseByK.dir\build.make CMakeFiles/LinkedListReverseByK.dir/LinkedListReverseByK.cpp.s
+.PHONY : LinkedListReverseByK.cpp.s
+
 Maximum-Consecutive-Ones.obj: Maximum-Consecutive-Ones.cpp.obj
 
 .PHONY : Maximum-Consecutive-Ones.obj
@@ -720,6 +773,33 @@ Maximum-Consecutive-Ones.s: Maximum-Consecutive-Ones.cpp.s
 Maximum-Consecutive-Ones.cpp.s:
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/Maximum-Consecutive-Ones.cpp.s
 .PHONY : Maximum-Consecutive-Ones.cpp.s
+
+MergeSort.obj: MergeSort.cpp.obj
+
+.PHONY : MergeSort.obj
+
+# target to build an object file
+MergeSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/MergeSort.cpp.obj
+.PHONY : MergeSort.cpp.obj
+
+MergeSort.i: MergeSort.cpp.i
+
+.PHONY : MergeSort.i
+
+# target to preprocess a source file
+MergeSort.cpp.i:
+	$(MAKE) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/MergeSort.cpp.i
+.PHONY : MergeSort.cpp.i
+
+MergeSort.s: MergeSort.cpp.s
+
+.PHONY : MergeSort.s
+
+# target to generate assembly for a file
+MergeSort.cpp.s:
+	$(MAKE) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/MergeSort.cpp.s
+.PHONY : MergeSort.cpp.s
 
 MooreVoting.obj: MooreVoting.cpp.obj
 
@@ -836,6 +916,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... Data_Structure_Algos
+	@echo ... LinkedListReverseByK
 	@echo ... Maximum-Consecutive-Ones
 	@echo ... MooreVoting
 	@echo ... Leader-Problem
@@ -853,6 +934,7 @@ help:
 	@echo ... LinkedListReverse
 	@echo ... constructTree
 	@echo ... CloneLinkedList
+	@echo ... MergeSort
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ArrayElementsNByK.obj
@@ -894,9 +976,15 @@ help:
 	@echo ... LinkedListReverse.obj
 	@echo ... LinkedListReverse.i
 	@echo ... LinkedListReverse.s
+	@echo ... LinkedListReverseByK.obj
+	@echo ... LinkedListReverseByK.i
+	@echo ... LinkedListReverseByK.s
 	@echo ... Maximum-Consecutive-Ones.obj
 	@echo ... Maximum-Consecutive-Ones.i
 	@echo ... Maximum-Consecutive-Ones.s
+	@echo ... MergeSort.obj
+	@echo ... MergeSort.i
+	@echo ... MergeSort.s
 	@echo ... MooreVoting.obj
 	@echo ... MooreVoting.i
 	@echo ... MooreVoting.s

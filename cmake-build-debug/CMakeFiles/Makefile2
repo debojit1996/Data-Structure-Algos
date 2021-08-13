@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-b
 
 # The main recursive "all" target.
 all: CMakeFiles/Data_Structure_Algos.dir/all
+all: CMakeFiles/LinkedListReverseByK.dir/all
 all: CMakeFiles/Maximum-Consecutive-Ones.dir/all
 all: CMakeFiles/MooreVoting.dir/all
 all: CMakeFiles/Leader-Problem.dir/all
@@ -70,11 +71,13 @@ all: CMakeFiles/DisjointSet.dir/all
 all: CMakeFiles/LinkedListReverse.dir/all
 all: CMakeFiles/constructTree.dir/all
 all: CMakeFiles/CloneLinkedList.dir/all
+all: CMakeFiles/MergeSort.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Data_Structure_Algos.dir/clean
+clean: CMakeFiles/LinkedListReverseByK.dir/clean
 clean: CMakeFiles/Maximum-Consecutive-Ones.dir/clean
 clean: CMakeFiles/MooreVoting.dir/clean
 clean: CMakeFiles/Leader-Problem.dir/clean
@@ -92,6 +95,7 @@ clean: CMakeFiles/DisjointSet.dir/clean
 clean: CMakeFiles/LinkedListReverse.dir/clean
 clean: CMakeFiles/constructTree.dir/clean
 clean: CMakeFiles/CloneLinkedList.dir/clean
+clean: CMakeFiles/MergeSort.dir/clean
 
 .PHONY : clean
 
@@ -128,13 +132,40 @@ CMakeFiles/Data_Structure_Algos.dir/clean:
 .PHONY : CMakeFiles/Data_Structure_Algos.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/LinkedListReverseByK.dir
+
+# All Build rule for target.
+CMakeFiles/LinkedListReverseByK.dir/all:
+	$(MAKE) -f CMakeFiles\LinkedListReverseByK.dir\build.make CMakeFiles/LinkedListReverseByK.dir/depend
+	$(MAKE) -f CMakeFiles\LinkedListReverseByK.dir\build.make CMakeFiles/LinkedListReverseByK.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target LinkedListReverseByK"
+.PHONY : CMakeFiles/LinkedListReverseByK.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LinkedListReverseByK.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/LinkedListReverseByK.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/LinkedListReverseByK.dir/rule
+
+# Convenience name for target.
+LinkedListReverseByK: CMakeFiles/LinkedListReverseByK.dir/rule
+
+.PHONY : LinkedListReverseByK
+
+# clean rule for target.
+CMakeFiles/LinkedListReverseByK.dir/clean:
+	$(MAKE) -f CMakeFiles\LinkedListReverseByK.dir\build.make CMakeFiles/LinkedListReverseByK.dir/clean
+.PHONY : CMakeFiles/LinkedListReverseByK.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Maximum-Consecutive-Ones.dir
 
 # All Build rule for target.
 CMakeFiles/Maximum-Consecutive-Ones.dir/all:
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/depend
 	$(MAKE) -f CMakeFiles\Maximum-Consecutive-Ones.dir\build.make CMakeFiles/Maximum-Consecutive-Ones.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target Maximum-Consecutive-Ones"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target Maximum-Consecutive-Ones"
 .PHONY : CMakeFiles/Maximum-Consecutive-Ones.dir/all
 
 # Build rule for subdir invocation for target.
@@ -161,7 +192,7 @@ CMakeFiles/Maximum-Consecutive-Ones.dir/clean:
 CMakeFiles/MooreVoting.dir/all:
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/depend
 	$(MAKE) -f CMakeFiles\MooreVoting.dir\build.make CMakeFiles/MooreVoting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target MooreVoting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target MooreVoting"
 .PHONY : CMakeFiles/MooreVoting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -431,7 +462,7 @@ CMakeFiles/GraphBfs.dir/clean:
 CMakeFiles/TreeBasic.dir/all:
 	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/depend
 	$(MAKE) -f CMakeFiles\TreeBasic.dir\build.make CMakeFiles/TreeBasic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target TreeBasic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target TreeBasic"
 .PHONY : CMakeFiles/TreeBasic.dir/all
 
 # Build rule for subdir invocation for target.
@@ -458,7 +489,7 @@ CMakeFiles/TreeBasic.dir/clean:
 CMakeFiles/PrimMST.dir/all:
 	$(MAKE) -f CMakeFiles\PrimMST.dir\build.make CMakeFiles/PrimMST.dir/depend
 	$(MAKE) -f CMakeFiles\PrimMST.dir\build.make CMakeFiles/PrimMST.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target PrimMST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target PrimMST"
 .PHONY : CMakeFiles/PrimMST.dir/all
 
 # Build rule for subdir invocation for target.
@@ -539,7 +570,7 @@ CMakeFiles/LinkedListReverse.dir/clean:
 CMakeFiles/constructTree.dir/all:
 	$(MAKE) -f CMakeFiles\constructTree.dir\build.make CMakeFiles/constructTree.dir/depend
 	$(MAKE) -f CMakeFiles\constructTree.dir\build.make CMakeFiles/constructTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target constructTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target constructTree"
 .PHONY : CMakeFiles/constructTree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -585,6 +616,33 @@ CloneLinkedList: CMakeFiles/CloneLinkedList.dir/rule
 CMakeFiles/CloneLinkedList.dir/clean:
 	$(MAKE) -f CMakeFiles\CloneLinkedList.dir\build.make CMakeFiles/CloneLinkedList.dir/clean
 .PHONY : CMakeFiles/CloneLinkedList.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MergeSort.dir
+
+# All Build rule for target.
+CMakeFiles/MergeSort.dir/all:
+	$(MAKE) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/depend
+	$(MAKE) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target MergeSort"
+.PHONY : CMakeFiles/MergeSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MergeSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/MergeSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\320028052\CLionProjects\Data-Structure-Algos\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/MergeSort.dir/rule
+
+# Convenience name for target.
+MergeSort: CMakeFiles/MergeSort.dir/rule
+
+.PHONY : MergeSort
+
+# clean rule for target.
+CMakeFiles/MergeSort.dir/clean:
+	$(MAKE) -f CMakeFiles\MergeSort.dir\build.make CMakeFiles/MergeSort.dir/clean
+.PHONY : CMakeFiles/MergeSort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
